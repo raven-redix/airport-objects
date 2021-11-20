@@ -1,0 +1,23 @@
+{
+  "name": "airport-objects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "airport.js",
+  "scripts": {
+    "test": "jest",
+    "test:report": "jest --coverage=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raven-redix/airport-objects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raven-redix/airport-objects/issues"
+  },
+  "homepage": "https://github.com/raven-redix/airport-objects#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
