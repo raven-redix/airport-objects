@@ -11,6 +11,9 @@ class Airplane {
     land(status) {
         this.flightStatus.push(status);
     };
+    takeFlight(status) {
+        this.flightStatus.push(status);
+    };
 
 };
 

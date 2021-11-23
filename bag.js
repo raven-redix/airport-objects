@@ -11,8 +11,6 @@ class Bag {
     };
 };
 
-//these are commented out because normally you wouldn't have the console.log 
-//in your code, it's just to check that things are working correctly
 //const testBag = new Bag(16)
 //console.log(testBag)
 

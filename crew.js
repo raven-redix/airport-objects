@@ -1,8 +1,11 @@
-class crewMember {
-    constructor(name, rank) {
-        this.name = name,
-        this.rank = rank,
-        this.assignedFlights = []
+const Person = require('./person');
+
+class crewMember extends Person {
+    constructor(name, bags, rank, staffNumber) {
+        super(name, bags);
+        this.rank = rank;
+        this.staffNumber = staffNumber;
+        this.assignedFlights = [];
         
     };
 
