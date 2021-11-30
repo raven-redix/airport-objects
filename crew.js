@@ -1,6 +1,6 @@
 const Person = require('./person');
 
-class crewMember extends Person {
+class CrewMember extends Person {
     constructor(name, bags, rank, staffNumber) {
         super(name, bags);
         this.rank = rank;
@@ -14,4 +14,4 @@ class crewMember extends Person {
     };
 };
 
-module.exports = crewMember;
+module.exports = CrewMember;
